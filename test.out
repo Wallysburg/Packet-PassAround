@@ -1,0 +1,17 @@
+tohost: localhost
+toport: 3333
+listening: port 3333
+hopcount: 2
+host: localhost
+port: 3333
+sent: origin;127.0.0.1:56755
+
+listening: port 3333
+hopcount: 1
+host: localhost
+port: 3333
+sent: origin;127.0.0.1:56755;127.0.0.1:3333
+
+listening: port 3333
+hopcount: 0
+origin;127.0.0.1:56755;127.0.0.1:3333;127.0.0.1:3333

@@ -1,0 +1,35 @@
+class: csc424.152
+project: proj2
+student: Charlie Davis (cbda)
+date: 15 mar 2015
+
+grade: 2/5
+
+passes test/test-alt (#): 2/2
+passes test-bounce (!):	0/2
+general points (*):	1/1
+lateness (-1/week):	(1)/(-1)
+
+
+(#)
+- passes either test or test-alt is full credit
+
+(!)
+- a partial pass (1 point) of test-bou if (a) the result was not 
+  completely correct but (b) there was significant functionality 
+  beyond what as tested in test-alt.
+
+(*)
+- reasonably free from compiler warnings
+- reasonably ANSI C compilant
+- reasonably free from crashing
+- correct makefile and subversion use
+- testability
+
+Notes:
+
+	does not pass make test - test.out empty
+	passes test-alt
+	does not pass test-bounce - sample output is
+	sent: origin;172.19.1.9:38588;172.19.1.4:4441;172.19.1.4:4441;172.19.1.4:4441
+	and exits
